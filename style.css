@@ -1,0 +1,125 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to top right,rgb(61, 104, 5),rgb(127, 219, 255));
+    height:100vh;
+    width:100vw;
+}
+h1{
+    text-align: center;
+    position: relative;
+    top:5%;
+    background-image: url(https://wallpaperaccess.com/full/2988490.jpg);
+    background-position: center;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    font-size: 5rem;
+}
+.main{
+    position:absolute;
+    left:35%;
+    top:20%;
+    margin-bottom:5%;
+    width:30%;
+    height:80%;
+    background-image: linear-gradient(to top,rgb(6, 28, 56),rgb(30, 224, 199));
+    border-radius: 5%;
+}
+.main:hover{
+    box-shadow: 0px 0px 10px rgb(6, 28, 56);
+}
+.items{
+    position:relative;
+    left:5%;
+    top:5%;
+    height:70%;
+    width:90%;
+    display:grid;
+    /* border:2px solid white; */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    gap:3px;
+}
+.dis{
+    position:relative;
+    left:5%;
+    top:5%;
+    background-color: rgb(252, 243, 243);
+    border:0.5px solid rgba(255, 255, 255, 0.808);
+    grid-column: 1/5;
+    color:black;
+    grid-row:1/2;
+    text-align: right;
+    width:90%;
+    height:20%;
+    font-size: 2rem;
+    border-radius: 8%;
+    margin-bottom:2%;
+    display: flex;
+    align-items:center;
+    justify-content: end;
+}
+.num{
+    background-color: white;
+    color:black;
+}
+.num:hover{
+    box-shadow: 0px 0px 20px silver;
+}
+.num:active{
+    background-color: rgb(207, 204, 204);
+    box-shadow: 0px 0px 15px black;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15%;
+    width:95%;
+    cursor: pointer;
+    font-size:1.5rem;
+}
+.op{
+    background-color: orange;
+    color:white;
+}
+.op:hover{
+    box-shadow: 0px 0px 20px orange;
+}
+.op:active{
+    background-color: rgb(170, 115, 12);
+    box-shadow: 0px 0px 15px black;
+}
+.eq{
+    background-color: blue;
+    color:white;
+    grid-column: 3/5;
+}
+.eq:hover{
+    box-shadow: 0px 0px 20px blue;
+}
+.eq:active{
+    background-color: rgb(5, 5, 190);
+    box-shadow: 0px 0px 15px black;
+}
+.reset{
+    grid-column: 1/5;
+    background-color: red;
+    border:none;
+    border-radius: 5%;
+    font-size: 1.5rem;
+}
+.reset:hover{
+    box-shadow: 0px 0px 20px red;
+    cursor: pointer;
+}
+.reset:active{
+    background-color: rgb(182, 11, 11);
+    box-shadow: 0px 0px 15px black;
+}
+#comment{
+    color:aliceblue;
+}
