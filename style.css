@@ -68,7 +68,7 @@ h1{
     color:black;
 }
 .num:hover{
-    box-shadow: 0px 0px 20px silver;
+    box-shadow: 0px 0px 20px black;
 }
 .num:active{
     background-color: rgb(207, 204, 204);
@@ -88,7 +88,7 @@ h1{
     color:white;
 }
 .op:hover{
-    box-shadow: 0px 0px 20px orange;
+    box-shadow: 0px 0px 20px black;
 }
 .op:active{
     background-color: rgb(170, 115, 12);
@@ -100,7 +100,7 @@ h1{
     grid-column: 3/5;
 }
 .eq:hover{
-    box-shadow: 0px 0px 20px blue;
+    box-shadow: 0px 0px 20px black;
 }
 .eq:active{
     background-color: rgb(5, 5, 190);
